@@ -2,6 +2,8 @@
 
 kubectl-login 用于登陆 kubernetes 集群，需要 [kubernetes api-server 开启 oidc authn](https://kubernetes.io/docs/reference/access-authn-authz/authentication/)。
 
+![kubectl login](kubectl-login-plugin.gif)
+
 ## example
 
 > 可以直接使用命令登陆集群，如果使用最新版本的 kubectl(1.13)，可以把 kubectl-login 移动到 /usr/local/bin/ 目录下，然后使用 kubectl login 登陆集群。
